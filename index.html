@@ -1,0 +1,268 @@
+<!doctype html>
+<html lang="zh-CN">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+    <meta name="theme-color" content="#081a32">
+    <title>婚礼邀请函</title>
+    <meta property="og:type" content="website">
+    <meta property="og:title" content="婚礼邀请函">
+    <meta property="og:description" content="「冯潇」和「李翼君」的冒险即将开始！2026.05.24 · 邻水 · 禧满鸿福酒店">
+    <meta property="og:image" content="Assets/01.png">
+    <link rel="stylesheet" href="styles.css">
+  </head>
+  <body>
+    <div class="page-shell">
+      <header class="top-hud" aria-label="请柬控制栏">
+        <button class="hud-button" type="button" data-sound aria-pressed="false" title="音效开关">♪</button>
+        <nav class="scene-dots" aria-label="章节导航">
+          <a class="scene-dot is-active" href="#cover" data-dot="cover" aria-label="封面"></a>
+          <a class="scene-dot" href="#menu" data-dot="menu" aria-label="菜单"></a>
+          <a class="scene-dot" href="#story" data-dot="story" aria-label="楔子"></a>
+          <a class="scene-dot" href="#story-ch02" data-dot="story-ch02" aria-label="第一章"></a>
+          <a class="scene-dot" href="#story-ch03" data-dot="story-ch03" aria-label="第二章"></a>
+          <a class="scene-dot" href="#story-ch04" data-dot="story-ch04" aria-label="第三章"></a>
+          <a class="scene-dot" href="#map" data-dot="map" aria-label="地图"></a>
+        </nav>
+        <button class="hud-button hud-button-wide" type="button" data-jump="map">MAP</button>
+      </header>
+
+      <main class="quest-scroll" aria-label="Wedding Quest 婚礼请柬">
+        <section class="scene" id="cover" data-scene="cover" aria-label="婚礼大冒险封面">
+          <div class="scene-frame">
+            <img class="scene-art" src="Assets/01.png" alt="像素风雪夜婚礼请柬封面">
+
+            <div class="cover-title">
+              <h1>婚礼邀请函</h1>
+              <p class="cover-tagline">♥ 属于我们的冒险 即将开始 ♥</p>
+            </div>
+
+            <p class="cover-press-start" data-press-start>—— 按下任意键开始 ——</p>
+            <button class="panel-reopen" type="button" data-panel-reopen>▲</button>
+
+            <div class="story-panel cover-panel">
+              <button class="panel-close" type="button" data-panel-close>✕</button>
+              <p class="story-text">「冯潇」已加入队伍！<br>「李翼君」已加入队伍！</p>
+              <p class="story-text">新的征程已经开始，<br>欢迎你来参与见证……</p>
+              <p class="story-date">2026.05.24</p>
+              <button class="story-expand" type="button" data-story-toggle>▼ 查看真实影像</button>
+              <div class="story-extra" data-story-extra>
+                <div class="story-divider">◆ ◇ ◆</div>
+                <div class="story-photo-wrap">
+                  <button class="story-photo-btn" type="button" data-lightbox-open="Assets/cover.jpg">
+                    <img class="story-photo-thumb" src="Assets/cover.jpg" alt="冒险者合影">
+                    <span class="story-photo-hint">点击查看</span>
+                  </button>
+                  <p class="story-quote">"独自冒险很危险，带上这个！"</p>
+                </div>
+              </div>
+              <button class="cover-start" type="button" data-jump="menu">▶ 开始冒险 ◀</button>
+            </div>
+          </div>
+        </section>
+
+        <section class="scene" id="menu" data-scene="menu" aria-label="冒险菜单">
+          <div class="scene-frame">
+            <img class="scene-art" src="Assets/02.png" alt="像素风 RPG 营地场景">
+
+            <div class="menu-deco">
+              <p class="menu-deco-icon">⚔</p>
+              <p class="menu-deco-text">选择你的道路</p>
+              <p class="menu-deco-quote">"黄色的树林中岔开两条路，<br>可惜我不能同时踏足"</p>
+            </div>
+
+            <div class="menu-options">
+              <button class="menu-btn" type="button" data-jump="story">
+                <span class="menu-btn-arrow">▶</span>
+                <span class="menu-btn-body">
+                  <span class="menu-btn-label">我们的故事</span>
+                  <span class="menu-btn-desc">回顾这段冒险旅程</span>
+                </span>
+              </button>
+              <button class="menu-btn" type="button" data-jump="map">
+                <span class="menu-btn-arrow">▶</span>
+                <span class="menu-btn-body">
+                  <span class="menu-btn-label">冒险地图</span>
+                  <span class="menu-btn-desc">查看地点与出行指南</span>
+                </span>
+              </button>
+            </div>
+
+          </div>
+        </section>
+
+        <section class="scene story-scene" id="story" data-scene="story" aria-label="我们的故事">
+          <div class="scene-frame">
+            <img class="scene-art" src="Assets/story-ch01.png" alt="像素风校园操场相遇场景">
+
+            <div class="story-header">
+              <p class="story-chapter">第一章</p>
+              <h2 class="story-title">阳光灿烂的日子</h2>
+            </div>
+            <div class="story-location-tag">
+              <span class="story-location-icon">◆</span>
+              <span class="story-location-name">邻水中学实验学校</span>
+            </div>
+
+            <button class="panel-reopen" type="button" data-panel-reopen>▲</button>
+            <div class="story-panel">
+              <button class="panel-close" type="button" data-panel-close>✕</button>
+              <p class="story-date">✦ 2009 ✦</p>
+              <p class="story-text">命运之轮早已设定好<br>两条交错的轨迹，<br>可是此时他们尚不知情。</p>
+              <button class="story-expand" type="button" data-story-toggle>▼ 查看真实影像</button>
+              <div class="story-extra" data-story-extra>
+                <div class="story-divider">◆ ◇ ◆</div>
+                <div class="story-photo-wrap">
+                  <button class="story-photo-btn" type="button" data-lightbox-open="Assets/ch01.png">
+                    <img class="story-photo-thumb" src="Assets/ch01.png" alt="合影">
+                    <span class="story-photo-hint">点击查看</span>
+                  </button>
+                  <p class="story-quote">"生命是一场偶然，我们在其中寻找因果"</p>
+                </div>
+              </div>
+            </div>
+
+            <button class="story-continue" type="button" data-jump="story-ch02">▶ 继续冒险 ◀</button>
+          </div>
+        </section>
+
+        <section class="scene story-scene" id="story-ch02" data-scene="story-ch02" aria-label="第一章">
+          <div class="scene-frame">
+            <img class="scene-art" src="Assets/story-ch02.png" alt="像素风上海外滩雨夜场景">
+
+            <div class="story-header">
+              <p class="story-chapter">第二章</p>
+              <h2 class="story-title">再回首</h2>
+            </div>
+            <div class="story-location-tag">
+              <span class="story-location-icon">◆</span>
+              <span class="story-location-name">上海</span>
+            </div>
+
+            <button class="panel-reopen" type="button" data-panel-reopen>▲</button>
+            <div class="story-panel">
+              <button class="panel-close" type="button" data-panel-close>✕</button>
+              <p class="story-date">✦ 2021 ✦</p>
+              <p class="story-text">- Hi<br>- Hi</p>
+              <button class="story-expand" type="button" data-story-toggle>▼ 查看真实影像</button>
+              <div class="story-extra" data-story-extra>
+                <div class="story-divider">◆ ◇ ◆</div>
+                <div class="story-photo-wrap">
+                  <button class="story-photo-btn" type="button" data-lightbox-open="Assets/ch02.jpg">
+                    <img class="story-photo-thumb" src="Assets/ch02.jpg" alt="再回首">
+                    <span class="story-photo-hint">点击查看</span>
+                  </button>
+                  <p class="story-quote">"你看，这雪是从过去来的"</p>
+                </div>
+              </div>
+            </div>
+
+            <button class="story-continue" type="button" data-jump="story-ch03">▶ 继续冒险 ◀</button>
+          </div>
+        </section>
+
+        <section class="scene story-scene" id="story-ch03" data-scene="story-ch03" aria-label="第二章">
+          <div class="scene-frame">
+            <img class="scene-art" src="Assets/story-ch03.png" alt="像素风夕阳江边场景">
+
+            <div class="story-header">
+              <p class="story-chapter">第三章</p>
+              <h2 class="story-title">萨摩耶！</h2>
+            </div>
+            <button class="panel-reopen" type="button" data-panel-reopen>▲</button>
+            <div class="story-panel">
+              <button class="panel-close" type="button" data-panel-close>✕</button>
+              <p class="story-date">✦ 2022 ✦</p>
+              <p class="story-text">「西瓜」加入了队伍！<br>现在，准备好出发去伟大冒险吧！</p>
+              <button class="story-expand" type="button" data-story-toggle>▼ 查看真实影像</button>
+              <div class="story-extra" data-story-extra>
+                <div class="story-divider">◆ ◇ ◆</div>
+                <div class="story-photo-wrap">
+                  <button class="story-photo-btn" type="button" data-lightbox-open="Assets/ch03.jpg">
+                    <img class="story-photo-thumb" src="Assets/ch03.jpg" alt="萨摩耶">
+                    <span class="story-photo-hint">点击查看</span>
+                  </button>
+                  <p class="story-quote">"冒险小队 +1 🐾"</p>
+                </div>
+              </div>
+            </div>
+
+            <button class="story-continue" type="button" data-jump="story-ch04">▶ 继续冒险 ◀</button>
+          </div>
+        </section>
+
+        <section class="scene story-scene" id="story-ch04" data-scene="story-ch04" aria-label="第三章">
+          <div class="scene-frame">
+            <img class="scene-art" src="Assets/story-ch04.png" alt="像素风雪地篝火聚会场景">
+
+            <div class="story-header">
+              <p class="story-chapter">第四章</p>
+              <h2 class="story-title">伴我同行</h2>
+            </div>
+            <button class="panel-reopen" type="button" data-panel-reopen>▲</button>
+            <div class="story-panel">
+              <button class="panel-close" type="button" data-panel-close>✕</button>
+              <p class="story-date">✦ 2024 ✦</p>
+              <p class="story-text">最好的冒险从来不是独行。</p>
+              <button class="story-expand" type="button" data-story-toggle>▼ 查看真实影像</button>
+              <div class="story-extra" data-story-extra>
+                <div class="story-divider">◆ ◇ ◆</div>
+                <div class="story-photo-wrap">
+                  <button class="story-photo-btn" type="button" data-lightbox-open="Assets/ch04.jpg">
+                    <img class="story-photo-thumb" src="Assets/ch04.jpg" alt="集结">
+                    <span class="story-photo-hint">点击查看</span>
+                  </button>
+                  <p class="story-quote">"如果宇宙是一首诗的话，我们每一个人都是组成这首诗的一个个文字"</p>
+                </div>
+              </div>
+            </div>
+
+            <button class="story-continue" type="button" data-jump="map">▶ 前往目的地 ◀</button>
+          </div>
+        </section>
+
+        <section class="scene" id="map" data-scene="map" aria-label="冒险地图">
+          <div class="scene-frame">
+            <img class="scene-art" src="Assets/map.png" alt="像素风婚礼城堡与路线地图">
+
+            <div class="map-header">
+              <h2 class="map-title">地图指引</h2>
+              <p class="map-subtitle">✦ 目的地：我们的婚礼 ✦</p>
+            </div>
+
+            <div class="map-info">
+              <p class="map-info-title">◆ 婚礼场地 ◆</p>
+              <h3 class="map-info-venue">禧满鸿福酒店</h3>
+              <div class="map-info-divider">◆ ◇ ◆</div>
+              <p class="map-info-row">◆ 四川 · 广安 · 邻水</p>
+              <p class="map-info-row">◆ 2026.05.24（周日）</p>
+              <p class="map-info-row">◆ 12:00 仪式开始</p>
+            </div>
+
+            <a class="map-navigate" href="https://ditu.amap.com/place/B0FFLKB4WG" target="_blank" rel="noopener">
+              ▶ 在地图中导航 ◀
+            </a>
+
+            <div class="map-footer">
+              <p class="map-message">我们的冒险在这里继续<br>期待与你一起庆祝！</p>
+              <button class="map-save" type="button" data-save-date>—— SAVE THE DATE ——</button>
+            </div>
+          </div>
+        </section>
+      </main>
+    </div>
+
+    <div class="loading-screen" data-loading aria-live="polite">
+      <div class="loading-panel">
+        <span class="loading-title">LOADING QUEST</span>
+        <span class="loading-bar" aria-hidden="true"><span></span></span>
+      </div>
+    </div>
+
+    <div class="lightbox" data-lightbox-modal>
+      <img src="" alt="">
+    </div>
+
+    <script src="script.js" defer></script>
+  </body>
+</html>
