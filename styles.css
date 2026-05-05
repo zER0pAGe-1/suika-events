@@ -640,6 +640,21 @@ a {
   opacity: 1;
 }
 
+.story-dialogue {
+  margin: 10px 0 0;
+  font-size: 14px;
+  line-height: 2;
+  text-shadow: 1px 1px 0 #000;
+}
+
+.dialogue-a {
+  color: var(--gold-soft);
+}
+
+.dialogue-b {
+  color: var(--ice);
+}
+
 .story-divider {
   margin: 12px 0;
   font-size: 8px;
