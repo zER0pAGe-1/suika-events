@@ -640,6 +640,11 @@ a {
   opacity: 1;
 }
 
+.highlight-name {
+  color: var(--gold);
+  text-shadow: 1px 1px 0 #000, 0 0 8px rgba(245, 189, 66, 0.3);
+}
+
 .story-dialogue {
   margin: 10px 0 0;
   font-size: 14px;
