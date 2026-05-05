@@ -870,6 +870,13 @@ a {
   text-shadow: 3px 3px 0 #000, 0 0 16px rgba(245, 189, 66, 0.3);
 }
 
+.map-info-hall {
+  margin: 4px 0 0;
+  font-size: 14px;
+  color: var(--muted);
+  letter-spacing: 3px;
+}
+
 .map-info-divider {
   margin: 12px 0;
   font-size: 8px;
