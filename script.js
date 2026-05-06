@@ -1,3 +1,18 @@
+const fixWechatFontScale = () => {
+  const detector = document.createElement("span");
+  detector.style.cssText = "font-size:100px;position:absolute;visibility:hidden;";
+  detector.textContent = "A";
+  document.body.appendChild(detector);
+  const scale = detector.offsetHeight / 100;
+  document.body.removeChild(detector);
+  if (Math.abs(scale - 1) > 0.01) {
+    document.querySelector(".page-shell").style.transform = `scale(${1 / scale})`;
+    document.querySelector(".page-shell").style.transformOrigin = "top center";
+    document.querySelector(".page-shell").style.width = `min(${100 * scale}vw, ${480 * scale}px)`;
+  }
+};
+fixWechatFontScale();
+
 const sceneIds = ["cover", "menu", "story", "story-ch02", "story-ch03", "story-ch04", "map"];
 const dots = Array.from(document.querySelectorAll("[data-dot]"));
 const jumpButtons = Array.from(document.querySelectorAll("[data-jump]"));
